@@ -7,4 +7,6 @@ Rails.application.routes.draw do
 
   get 'songs/show'
 
+  resources :songs
+
 end
